@@ -3,3 +3,34 @@
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
+
+.table_layout {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table_layout th {
+  border: solid 1px #dedede;
+  background-color: #2244aa;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.table_layout td {
+  font-size: 16px;
+  line-height: 22px;
+  border: solid 1px #dedede;
+  padding: 10px;
+  text-align: center;
+}
+
+.table_layout tbody tr:nth-child(2), .table_layout tbody tr:nth-child(4) {
+  background-color: #ecf1f2;
+}
+
+.table_layout tbody tr:last-child {
+  border-top: dashed 2px #000;
+}

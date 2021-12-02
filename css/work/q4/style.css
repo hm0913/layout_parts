@@ -3,3 +3,54 @@
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
+
+.text_center {
+  text-align: center;
+}
+
+.text_aligin_child {
+  display: inline-block;
+}
+
+.margin_box {
+  margin: 0 auto;
+}
+
+.table_parent {
+  display: table;
+}
+
+.table_child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table_target {
+  display: inline-block;
+}
+
+.flex_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position_parent {
+  position: relative;
+}
+
+.position_fixed_child {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.position_variable_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
