@@ -10,7 +10,7 @@ q2のcssはq2フォルダの中のcssファイルに記述してください */
   clear: both;
 }
 
-.q1_box {
+.q1_container {
   width: 300px;
   background-color: #3274ae;
   margin-left: 30px;
@@ -19,11 +19,11 @@ q2のcssはq2フォルダの中のcssファイルに記述してください */
   float: left;
 }
 
-.q1_box:first-child {
+.q1_container:first-child {
   margin: 0;
 }
 
-.q1_text {
+.q1_content {
   background-color: #eaf4ff;
   padding: 20px;
   border: solid 10px #022336;
