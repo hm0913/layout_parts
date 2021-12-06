@@ -15,11 +15,11 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   float: left;
 }
 
-.q5_font_0 {
+.q5_contents_font {
 font-size: 0;
 }
 
-.margin_left_60:last-child {
+.q5_margin:last-child {
   margin-left: 60px;
 }
 
@@ -42,6 +42,11 @@ font-size: 0;
 
 .q5_container {
   display: flex;
+  justify-content: space-between;
+}
+
+.q5_flex_item {
+  width: 400px;
 }
 
 .calc_container {
