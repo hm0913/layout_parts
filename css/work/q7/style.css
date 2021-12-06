@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+.q7_group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.balloon_box {
+  width: 550px;
+  margin-left: 35px;
+}
+
+.balloon_text {
+  position: relative;
+  border: 5px solid #222;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 16px;
+  word-break: break-all;
+}
+
+.balloon_text::before,
+.balloon_text::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 12%;
+  border: 25px solid transparent;
+}
+
+.balloon_text::before {
+  border-right-color: #222;
+  left: -50px;
+}
+
+.balloon_text::after {
+  border-right-color:#fff;
+  left: -43px;
+}

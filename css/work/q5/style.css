@@ -3,3 +3,52 @@
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float_content {
+  width: 400px;
+  float: left;
+}
+
+.q5_font_0 {
+font-size: 0;
+}
+
+.margin_left_60:last-child {
+  margin-left: 60px;
+}
+
+.q5_table {
+  display: table;
+}
+
+.table_content {
+  display: table-cell;
+}
+
+.table_content:last-child {
+  padding-left: 60px;
+}
+
+.inline_content {
+  width: 400px;
+  display: inline-block;
+}
+
+.q5_container {
+  display: flex;
+}
+
+.calc_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calc_item {
+  width: calc((100% - 50px) / 3);
+}
